@@ -1,0 +1,272 @@
+.header {
+  height: 35px;
+  width: 100%;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #EEE;
+  font-size: 12px;
+}
+
+.header .header_content {
+  width: 990px;
+  height: 35px;
+  margin: 0 auto;
+  line-height: 35px;
+}
+
+.header .header_content li {
+  cursor: pointer;
+}
+
+.header .header_content .header_content_l {
+  float: left;
+}
+
+.header .header_content .header_content_l li {
+  float: left;
+  margin-right: 7px;
+}
+
+.header .header_content .header_content_l .a1 {
+  color: #F22E00;
+}
+
+.header .header_content .header_content_l li:nth-child(n+2):nth-child(-n+3):hover {
+  color: #F22E00;
+}
+
+.header .header_content .header_content_r {
+  float: right;
+}
+
+.header .header_content .header_content_r .li {
+  float: left;
+  margin-right: 7px;
+  position: relative;
+}
+
+.header .header_content .header_content_r .li .tbhover {
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  z-index: 100;
+  font-size: 16px;
+  color: #ccc;
+  line-height: 28px;
+  padding: 5px;
+  display: none;
+}
+
+.header .header_content .header_content_r .li .tbhover a {
+  display: block;
+}
+
+.header .header_content .header_content_r .li .tbhover a:hover {
+  background-color: #e9e7e7;
+}
+
+.header .header_content .header_content_r .litwo:hover {
+  background-color: white;
+}
+
+.header .header_content .header_content_r .litwo:hover .tbhover {
+  display: block;
+}
+
+.main {
+  width: 100%;
+}
+
+.main_banner {
+  cursor: pointer;
+  background-color: #deace1;
+}
+
+.main_banner .main_banner_cont {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.pc_search {
+  padding: 22px 0 23px;
+}
+
+.pc_search .box {
+  width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pc_search .box .search {
+  width: 690px;
+  display: inline-block;
+}
+
+.pc_search .box .search .search_border {
+  padding-left: 10px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 3px solid #f03726;
+  border-right: 0;
+  margin: 0 5px;
+  position: relative;
+}
+
+.pc_search .box .search .search_border .search_border_pd {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.pc_search .box .search .search_border .search_border_pd input:nth-child(1) {
+  height: 23px;
+  width: 567px;
+}
+
+.pc_search .box .search .search_border .submit {
+  display: inline-block;
+  width: 95px;
+  height: 36px;
+  background: #f03726;
+  position: absolute;
+  right: 0;
+  color: #f5f5f2;
+  font-size: 18px;
+}
+
+.pc_search .box .search .links {
+  height: 23px;
+  padding: 5px 0 0 5px;
+}
+
+.pc_search .box .search .links a {
+  float: left;
+  padding-right: 19px;
+  line-height: 23px;
+}
+
+.pc_search .box .search .links a:hover {
+  text-decoration: underline;
+}
+
+.pc_search .box .search .links .red {
+  color: #fd3f31;
+}
+
+.pc_search .box .pic {
+  padding-left: 50px;
+  height: 63px;
+  cursor: pointer;
+}
+
+.pc_search .box .pic img {
+  height: 100%;
+}
+
+.main_links {
+  line-height: 36px;
+  background: #fd3f31;
+}
+
+.main_links .box_links {
+  width: 1190px;
+  margin: 0 auto;
+  height: 36px;
+}
+
+.main_links .box_links .linkleft {
+  float: left;
+  width: 242px;
+  text-align: center;
+}
+
+.main_links .box_links .linkleft a {
+  color: white;
+  cursor: pointer;
+}
+
+.main_links .box_links .linkright {
+  float: left;
+}
+
+.main_links .box_links .linkright a {
+  color: white;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.conwrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  padding: 30px 10px;
+}
+
+.footer_top {
+  width: 1190px;
+  margin: 0  auto;
+  line-height: 30px;
+}
+
+.footer_top a {
+  font-size: 12px;
+  color: #bdbaba;
+}
+
+.footer_top a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.footer_top b {
+  color: #bdbaba;
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.footer_top .footer_top_l {
+  float: left;
+}
+
+.footer_top .footer_top_copy .pic1 {
+  opacity: .5;
+  vertical-align: -2px;
+}
+
+.footer_top .footer_top_copy .lasta {
+  position: relative;
+}
+
+.footer_top .footer_top_copy .lasta:hover .pic1 {
+  opacity: 1;
+}
+
+.footer_bottom {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.footer_bottom a {
+  margin-right: 20px;
+  line-height: 60px;
+}
+
+.footer_bottom a img {
+  width: 40px;
+  opacity: .4;
+  cursor: pointer;
+}
+
+.footer_bottom a:nth-child(1):hover img:nth-child(1) {
+  opacity: 1;
+}
+
+.footer_bottom a:nth-child(2):hover img:nth-child(1) {
+  opacity: 1;
+}
+
+.footer_bottom a:nth-child(3):hover img:nth-child(1) {
+  opacity: 1;
+}
